@@ -1,0 +1,7 @@
+Manual-start diagnostic; CPU 1MHz; physical validation pending
+Setup slack: 5.008 ns; hold slack: 0.063 ns
+Clock-enable setup slack: 7.849 ns; hold slack: 0.285 ns
+CPU leaf/hierarchical cells retained: 2960
+Clock gate: BUFGCTRL; CPU period: 1000.000 ns
+USR_ACCESS: 4D535431
+Bitstream: D:/Code/Vivado/ego1_arm_pipeline/download/ego1_arm_pipeline_manual_start.bit

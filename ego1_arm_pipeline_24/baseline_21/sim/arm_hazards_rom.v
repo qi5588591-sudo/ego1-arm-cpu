@@ -1,0 +1,88 @@
+`timescale 1ns/1ps
+module arm_hazards_rom(input wire [31:0] address, output reg [31:0] instruction,output reg valid);
+    always @* begin
+        valid=1; instruction=0;
+        case(address)
+            32'h00000000: instruction=32'he3a0a000;
+            32'h00000004: instruction=32'he38aaa01;
+            32'h00000008: instruction=32'he3a00007;
+            32'h0000000c: instruction=32'he2801005;
+            32'h00000010: instruction=32'he0812000;
+            32'h00000014: instruction=32'he2423007;
+            32'h00000018: instruction=32'he58a3000;
+            32'h0000001c: instruction=32'he59a4000;
+            32'h00000020: instruction=32'he2845003;
+            32'h00000024: instruction=32'he58a5004;
+            32'h00000028: instruction=32'he59a6004;
+            32'h0000002c: instruction=32'he58a6010;
+            32'h00000030: instruction=32'he3a0800f;
+            32'h00000034: instruction=32'he1560008;
+            32'h00000038: instruction=32'h1a000039;
+            32'h0000003c: instruction=32'he3a0702a;
+            32'h00000040: instruction=32'he3a08001;
+            32'h00000044: instruction=32'he3a09002;
+            32'h00000048: instruction=32'he287b001;
+            32'h0000004c: instruction=32'he3a0802b;
+            32'h00000050: instruction=32'he15b0008;
+            32'h00000054: instruction=32'h1a000032;
+            32'h00000058: instruction=32'he1500000;
+            32'h0000005c: instruction=32'h13a04063;
+            32'h00000060: instruction=32'h02841000;
+            32'h00000064: instruction=32'he3a0800c;
+            32'h00000068: instruction=32'he1510008;
+            32'h0000006c: instruction=32'h1a00002c;
+            32'h00000070: instruction=32'he3e06000;
+            32'h00000074: instruction=32'he2966001;
+            32'h00000078: instruction=32'he2a67000;
+            32'h0000007c: instruction=32'he3a08001;
+            32'h00000080: instruction=32'he1570008;
+            32'h00000084: instruction=32'h1a000026;
+            32'h00000088: instruction=32'he3570001;
+            32'h0000008c: instruction=32'h0a000001;
+            32'h00000090: instruction=32'he58a7000;
+            32'h00000094: instruction=32'he7f000f0;
+            32'h00000098: instruction=32'he3a0800c;
+            32'h0000009c: instruction=32'he1530008;
+            32'h000000a0: instruction=32'h1a00001f;
+            32'h000000a4: instruction=32'he3a06102;
+            32'h000000a8: instruction=32'he2566001;
+            32'h000000ac: instruction=32'he3160000;
+            32'h000000b0: instruction=32'h63a07001;
+            32'h000000b4: instruction=32'he3a08001;
+            32'h000000b8: instruction=32'he1570008;
+            32'h000000bc: instruction=32'h1a000018;
+            32'h000000c0: instruction=32'he3a00000;
+            32'h000000c4: instruction=32'he1500000;
+            32'h000000c8: instruction=32'h15904000;
+            32'h000000cc: instruction=32'he2847001;
+            32'h000000d0: instruction=32'he3a0800d;
+            32'h000000d4: instruction=32'he1570008;
+            32'h000000d8: instruction=32'h1a000011;
+            32'h000000dc: instruction=32'he28f9014;
+            32'h000000e0: instruction=32'he58a9014;
+            32'h000000e4: instruction=32'he3a09000;
+            32'h000000e8: instruction=32'he59a9014;
+            32'h000000ec: instruction=32'he12fff19;
+            32'h000000f0: instruction=32'he58a9000;
+            32'h000000f4: instruction=32'he7f000f0;
+            32'h000000f8: instruction=32'he59a7010;
+            32'h000000fc: instruction=32'he3a0800f;
+            32'h00000100: instruction=32'he1570008;
+            32'h00000104: instruction=32'h1a000006;
+            32'h00000108: instruction=32'heb000008;
+            32'h0000010c: instruction=32'he3a0800c;
+            32'h00000110: instruction=32'he1500008;
+            32'h00000114: instruction=32'h1a000002;
+            32'h00000118: instruction=32'he3a00001;
+            32'h0000011c: instruction=32'he58a0008;
+            32'h00000120: instruction=32'heafffffe;
+            32'h00000124: instruction=32'he3a000ee;
+            32'h00000128: instruction=32'he58a0008;
+            32'h0000012c: instruction=32'heafffffe;
+            32'h00000130: instruction=32'he3a00009;
+            32'h00000134: instruction=32'he2800003;
+            32'h00000138: instruction=32'he12fff1e;
+            default: begin valid=0; instruction=0; end
+        endcase
+    end
+endmodule

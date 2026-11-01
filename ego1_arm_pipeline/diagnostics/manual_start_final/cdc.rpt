@@ -1,0 +1,20 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2025.2 (win64) Build 6299465 Fri Nov 14 19:35:11 GMT 2025
+| Date         : Sat Oct 31 21:15:27 2026
+| Host         : CQcomputer running 64-bit major release  (build 9200)
+| Command      : report_cdc -file D:/Code/Vivado/ego1_arm_pipeline/diagnostics/manual_start_final/cdc.rpt
+| Design       : ego1_arm_pipeline_top
+| Device       : 7a35t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+| Design State : Routed
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+CDC Report
+
+Severity  Source Clock      Destination Clock  CDC Type                 Exceptions  Endpoints  Safe  Unsafe  Unknown  No ASYNC_REG  
+--------  ----------------  -----------------  -----------------------  ----------  ---------  ----  ------  -------  ------------  
+Info      sys_clk           cpu_clk            Safely Timed             None                2     2       0        0             0  
+Info      cpu_clk           sys_clk            Safely Timed             None                2     2       0        0             0  
+Info      input port clock  sys_clk            No Common Primary Clock  False Path          1     1       0        0             0  
+

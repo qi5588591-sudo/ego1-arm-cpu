@@ -1,0 +1,6 @@
+Part: xc7a35tcsg324-1
+Input clock: 100MHz; CPU clock: 10MHz
+Setup slack: 71.057 ns
+Hold slack: 0.160 ns
+Bitstream: D:/Code/Vivado/ego1_cpu/validation/ego1_single_cycle_board_verified.bit
+Actual EGO1 hardware behavior is pending user observation.

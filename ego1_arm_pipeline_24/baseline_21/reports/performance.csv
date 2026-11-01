@@ -1,0 +1,4 @@
+﻿image,name,single_cycles,forwarding_cycles,stall_only_cycles,saved_cycles,cycle_reduction_percent,pipeline_speedup
+0,demo,181,201,399,198,49.62406015037594,1.9850746268656716
+1,stress,661,670,1070,400,37.38317757009346,1.5970149253731343
+2,hazards,74,93,168,75,44.642857142857146,1.8064516129032258

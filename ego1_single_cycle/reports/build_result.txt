@@ -1,0 +1,4 @@
+Part: xc7a35tcsg324-1; board 100MHz; CPU 1MHz
+Setup slack: 5.824 ns; hold slack: 0.097 ns
+USR_ACCESS: 53433130; compressed bitstream: D:/Code/Vivado/ego1_single_cycle/download/ego1_single_cycle.bit
+Physical board behavior: pending user verification

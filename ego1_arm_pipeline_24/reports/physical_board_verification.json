@@ -1,0 +1,13 @@
+{
+  "status": "passed (user reported)",
+  "date": "2026-10-31",
+  "board": "EGO1 xc7a35t",
+  "bit_file": "download/ego1_arm_pipeline_24.bit",
+  "bit_sha256": "A9BF47941C74A642255B8FC5C2CC31C1AA4DCF1143E8590B56A44271805AE4FD",
+  "evidence": "User replied 没问题 to the specified download, LED and S0 reset verification steps; no independent hardware measurement by the assistant.",
+  "reported_checks": [
+    "Programming completes with startup HIGH",
+    "D16 blinks, D15 stays on, D14 stays off",
+    "S0 clears pass/fault indicators and release reruns the demo successfully"
+  ]
+}

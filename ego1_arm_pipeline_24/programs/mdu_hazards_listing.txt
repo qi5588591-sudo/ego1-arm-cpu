@@ -1,0 +1,225 @@
+00000000  e3a0a000  {'op': 'mov', 'rd': 10, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000004  e38aaa01  {'op': 'orr', 'rd': 10, 'rn': 10, 'imm': 4096, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000008  e3a0600c  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 12, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000000c  e58a6000  {'op': 'str', 'rd': 6, 'rn': 10, 'offset': 0, 'cond': 'al'}
+00000010  e3a0600f  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 15, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000014  e58a6004  {'op': 'str', 'rd': 6, 'rn': 10, 'offset': 4, 'cond': 'al'}
+00000018  e3a00007  {'op': 'mov', 'rd': 0, 'rn': None, 'imm': 7, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000001c  e3a01003  {'op': 'mov', 'rd': 1, 'rn': None, 'imm': 3, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000020  e0000190  {'op': 'mul', 'rd': 0, 'rn': 0, 'rm': 1, 's': False, 'cond': 'al'}
+00000024  e0802001  {'op': 'add', 'rd': 2, 'rn': 0, 'imm': None, 'rm': 1, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000028  e713f112  {'op': 'sdiv', 'rd': 3, 'rn': 2, 'rm': 1, 's': False, 'cond': 'al'}
+0000002c  e0040393  {'op': 'mul', 'rd': 4, 'rn': 3, 'rm': 3, 's': False, 'cond': 'al'}
+00000030  e735f314  {'op': 'udiv', 'rd': 5, 'rn': 4, 'rm': 3, 's': False, 'cond': 'al'}
+00000034  e58a5010  {'op': 'str', 'rd': 5, 'rn': 10, 'offset': 16, 'cond': 'al'}
+00000038  e59a6010  {'op': 'ldr', 'rd': 6, 'rn': 10, 'offset': 16, 'cond': 'al'}
+0000003c  e0070196  {'op': 'mul', 'rd': 7, 'rn': 6, 'rm': 1, 's': False, 'cond': 'al'}
+00000040  e58a7014  {'op': 'str', 'rd': 7, 'rn': 10, 'offset': 20, 'cond': 'al'}
+00000044  e59a6014  {'op': 'ldr', 'rd': 6, 'rn': 10, 'offset': 20, 'cond': 'al'}
+00000048  e736f116  {'op': 'udiv', 'rd': 6, 'rn': 6, 'rm': 1, 's': False, 'cond': 'al'}
+0000004c  e3a08008  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 8, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000050  e1560008  {'op': 'cmp', 'rd': None, 'rn': 6, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000054  1a0000c7  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+00000058  e3a06000  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000005c  e3866102  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 2147483648, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000060  e2566001  {'op': 'sub', 'rd': 6, 'rn': 6, 'imm': 1, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': True, 'cond': 'al'}
+00000064  e0140196  {'op': 'mul', 'rd': 4, 'rn': 6, 'rm': 1, 's': True, 'cond': 'al'}
+00000068  e2a47000  {'op': 'adc', 'rd': 7, 'rn': 4, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000006c  e3a080fe  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 254, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000070  e3888cff  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000074  e38888ff  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000078  e388847f  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 2130706432, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000007c  e1570008  {'op': 'cmp', 'rd': None, 'rn': 7, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000080  1a0000bc  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+00000084  e1500000  {'op': 'cmp', 'rd': None, 'rn': 0, 'imm': None, 'rm': 0, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000088  0a000002  {'op': 'b', 'label': 'mdu_taken', 'cond': 'eq'}
+0000008c  e714f116  {'op': 'sdiv', 'rd': 4, 'rn': 6, 'rm': 1, 's': False, 'cond': 'al'}
+00000090  e0040196  {'op': 'mul', 'rd': 4, 'rn': 6, 'rm': 1, 's': False, 'cond': 'al'}
+00000094  e7f000f0  {'op': 'raw', 'word': 3891265776, 'cond': 'al'}
+00000098  e3a060f9  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 249, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000009c  e3866cff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000a0  e38668ff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000a4  e38664ff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 4278190080, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000a8  e3a07003  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 3, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000ac  e0040796  {'op': 'mul', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'al'}
+000000b0  e3a080eb  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 235, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000b4  e3888cff  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000b8  e38888ff  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000bc  e38884ff  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 4278190080, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000c0  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000c4  1a0000ab  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+000000c8  e3a060ff  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 255, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000cc  e3866cff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000d0  e38668ff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000d4  e38664ff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 4278190080, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000d8  e3a070ff  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 255, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000dc  e3877cff  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000e0  e38778ff  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000e4  e38774ff  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 4278190080, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000e8  e0040796  {'op': 'mul', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'al'}
+000000ec  e3a08001  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 1, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000f0  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000f4  1a00009f  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+000000f8  e3a06000  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000000fc  e3866102  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 2147483648, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000100  e3a07002  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 2, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000104  e0040796  {'op': 'mul', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'al'}
+00000108  e3a08000  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000010c  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000110  1a000098  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+00000114  e3a060f9  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 249, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000118  e3866cff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000011c  e38668ff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000120  e38664ff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 4278190080, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000124  e3a07003  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 3, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000128  e714f716  {'op': 'sdiv', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'al'}
+0000012c  e3a080fe  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 254, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000130  e3888cff  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000134  e38888ff  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000138  e38884ff  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 4278190080, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000013c  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000140  1a00008c  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+00000144  e3a06007  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 7, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000148  e3a070fd  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 253, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000014c  e3877cff  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000150  e38778ff  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000154  e38774ff  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 4278190080, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000158  e714f716  {'op': 'sdiv', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'al'}
+0000015c  e3a080fe  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 254, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000160  e3888cff  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000164  e38888ff  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000168  e38884ff  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 4278190080, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000016c  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000170  1a000080  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+00000174  e3a060f9  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 249, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000178  e3866cff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000017c  e38668ff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000180  e38664ff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 4278190080, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000184  e3a070fd  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 253, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000188  e3877cff  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000018c  e38778ff  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000190  e38774ff  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 4278190080, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000194  e714f716  {'op': 'sdiv', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'al'}
+00000198  e3a08002  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 2, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000019c  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001a0  1a000074  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+000001a4  e3a06000  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001a8  e3866102  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 2147483648, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001ac  e3a070ff  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 255, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001b0  e3877cff  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001b4  e38778ff  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001b8  e38774ff  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 4278190080, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001bc  e714f716  {'op': 'sdiv', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'al'}
+000001c0  e3a08000  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001c4  e3888102  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 2147483648, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001c8  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001cc  1a000069  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+000001d0  e3a06000  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001d4  e3866102  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 2147483648, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001d8  e3a07001  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 1, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001dc  e714f716  {'op': 'sdiv', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'al'}
+000001e0  e3a08000  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001e4  e3888102  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 2147483648, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001e8  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001ec  1a000061  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+000001f0  e3a06000  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001f4  e3866102  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 2147483648, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001f8  e3a07000  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000001fc  e714f716  {'op': 'sdiv', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'al'}
+00000200  e3a08000  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000204  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000208  1a00005a  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+0000020c  e3a06009  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 9, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000210  e3a07000  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000214  e714f716  {'op': 'sdiv', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'al'}
+00000218  e3a08000  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000021c  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000220  1a000054  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+00000224  e3a060f9  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 249, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000228  e3866cff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000022c  e38668ff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000230  e38664ff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 4278190080, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000234  e3a07003  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 3, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000238  e734f716  {'op': 'udiv', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'al'}
+0000023c  e3a08053  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 83, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000240  e3888c55  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 21760, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000244  e3888855  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 5570560, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000248  e3888455  {'op': 'orr', 'rd': 8, 'rn': 8, 'imm': 1426063360, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000024c  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000250  1a000048  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+00000254  e3a060ff  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 255, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000258  e3866cff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000025c  e38668ff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000260  e38664ff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 4278190080, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000264  e3a07000  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000268  e3877102  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 2147483648, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000026c  e734f716  {'op': 'udiv', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'al'}
+00000270  e3a08001  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 1, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000274  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000278  1a00003e  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+0000027c  e3a06000  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000280  e3866102  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 2147483648, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000284  e3a070ff  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 255, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000288  e3877cff  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000028c  e38778ff  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000290  e38774ff  {'op': 'orr', 'rd': 7, 'rn': 7, 'imm': 4278190080, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000294  e734f716  {'op': 'udiv', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'al'}
+00000298  e3a08000  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000029c  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000002a0  1a000034  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+000002a4  e3a060ff  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 255, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000002a8  e3866cff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 65280, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000002ac  e38668ff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 16711680, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000002b0  e38664ff  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 4278190080, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000002b4  e3a07000  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000002b8  e734f716  {'op': 'udiv', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'al'}
+000002bc  e3a08000  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000002c0  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000002c4  1a00002b  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+000002c8  e3a06000  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000002cc  e3a07001  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 1, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000002d0  e734f716  {'op': 'udiv', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'al'}
+000002d4  e3a08000  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000002d8  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000002dc  1a000025  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+000002e0  e3a06000  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000002e4  e3866102  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 2147483648, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000002e8  e2566001  {'op': 'sub', 'rd': 6, 'rn': 6, 'imm': 1, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': True, 'cond': 'al'}
+000002ec  e3a07000  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+000002f0  e0140796  {'op': 'mul', 'rd': 4, 'rn': 6, 'rm': 7, 's': True, 'cond': 'al'}
+000002f4  1a00001f  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+000002f8  4a00001e  {'op': 'b', 'label': 'fail', 'cond': 'mi'}
+000002fc  3a00001d  {'op': 'b', 'label': 'fail', 'cond': 'cc'}
+00000300  7a00001c  {'op': 'b', 'label': 'fail', 'cond': 'vc'}
+00000304  e3a06000  {'op': 'mov', 'rd': 6, 'rn': None, 'imm': 0, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000308  e3866102  {'op': 'orr', 'rd': 6, 'rn': 6, 'imm': 2147483648, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000030c  e3a07001  {'op': 'mov', 'rd': 7, 'rn': None, 'imm': 1, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000310  e0140796  {'op': 'mul', 'rd': 4, 'rn': 6, 'rm': 7, 's': True, 'cond': 'al'}
+00000314  5a000017  {'op': 'b', 'label': 'fail', 'cond': 'pl'}
+00000318  0a000016  {'op': 'b', 'label': 'fail', 'cond': 'eq'}
+0000031c  3a000015  {'op': 'b', 'label': 'fail', 'cond': 'cc'}
+00000320  7a000014  {'op': 'b', 'label': 'fail', 'cond': 'vc'}
+00000324  e3a0402a  {'op': 'mov', 'rd': 4, 'rn': None, 'imm': 42, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000328  e1540004  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 4, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000032c  10140796  {'op': 'mul', 'rd': 4, 'rn': 6, 'rm': 7, 's': True, 'cond': 'ne'}
+00000330  1714f716  {'op': 'sdiv', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'ne'}
+00000334  1734f716  {'op': 'udiv', 'rd': 4, 'rn': 6, 'rm': 7, 's': False, 'cond': 'ne'}
+00000338  e3a0802a  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 42, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000033c  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000340  1a00000c  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+00000344  e3a00015  {'op': 'mov', 'rd': 0, 'rn': None, 'imm': 21, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000348  e3a01003  {'op': 'mov', 'rd': 1, 'rn': None, 'imm': 3, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000034c  e710f110  {'op': 'sdiv', 'rd': 0, 'rn': 0, 'rm': 1, 's': False, 'cond': 'al'}
+00000350  e0000190  {'op': 'mul', 'rd': 0, 'rn': 0, 'rm': 1, 's': False, 'cond': 'al'}
+00000354  e731f110  {'op': 'udiv', 'rd': 1, 'rn': 0, 'rm': 1, 's': False, 'cond': 'al'}
+00000358  e58a1028  {'op': 'str', 'rd': 1, 'rn': 10, 'offset': 40, 'cond': 'al'}
+0000035c  e59a4028  {'op': 'ldr', 'rd': 4, 'rn': 10, 'offset': 40, 'cond': 'al'}
+00000360  e3a08007  {'op': 'mov', 'rd': 8, 'rn': None, 'imm': 7, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000364  e1540008  {'op': 'cmp', 'rd': None, 'rn': 4, 'imm': None, 'rm': 8, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000368  1a000002  {'op': 'b', 'label': 'fail', 'cond': 'ne'}
+0000036c  e3a00001  {'op': 'mov', 'rd': 0, 'rn': None, 'imm': 1, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+00000370  e58a0008  {'op': 'str', 'rd': 0, 'rn': 10, 'offset': 8, 'cond': 'al'}
+00000374  eafffffe  {'op': 'b', 'label': 'finish', 'cond': 'al'}
+00000378  e3a000ee  {'op': 'mov', 'rd': 0, 'rn': None, 'imm': 238, 'rm': None, 'shift': 'lsl', 'amount': 0, 's': False, 'cond': 'al'}
+0000037c  e58a0008  {'op': 'str', 'rd': 0, 'rn': 10, 'offset': 8, 'cond': 'al'}
+00000380  eafffffe  {'op': 'b', 'label': 'fail_halt', 'cond': 'al'}
