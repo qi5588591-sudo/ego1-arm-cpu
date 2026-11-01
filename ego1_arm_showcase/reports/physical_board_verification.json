@@ -1,0 +1,21 @@
+{
+  "status": "passed (user reported)",
+  "date": "2026-11-01",
+  "board": "EGO1 xc7a35t",
+  "bit_file": "download/ego1_arm_showcase.bit",
+  "bit_sha256": "801F49D97E276FB6F0AFB2B5E788CCCB3B6FE04061A3210401C7F251438BD8C0",
+  "evidence": "User reported the programmed board behaves as specified; no automated instrument capture performed by the assistant.",
+  "reported_checks": [
+    "programming completes, board runs the demo automatically",
+    "D13 lit after all 24 records captured, D16 heartbeat running",
+    "digit order correct: the two-digit case number sits in the leftmost pair",
+    "each instruction walks its 2 or 3 pages, last page is the result",
+    "D15 lit and D14 dark on every case",
+    "S4 reruns the program, S0 resets CPU and UI"
+  ],
+  "previous_bit": {
+    "file": "download/ego1_arm_showcase_v1.bit",
+    "sha256": "868A05CDA78DF431CF72826080199FFCD920376FB4173202A91D86458E8C6ADB",
+    "note": "eight-page version, superseded"
+  }
+}

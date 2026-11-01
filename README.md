@@ -39,4 +39,4 @@ py scripts\build_showcase.py
 
 ## 当前状态
 
-CPU 本体与演示版均已本地验证；演示版新 bit **尚未上板确认**，清单见 `HANDOVER.md`。
+CPU 本体与演示版均已通过本机验证与实板确认（2026-11-01）。回归清单见 `HANDOVER.md`。

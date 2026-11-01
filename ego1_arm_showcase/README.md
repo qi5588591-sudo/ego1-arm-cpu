@@ -83,9 +83,9 @@ D:\develop\AMDDesignTools\2025.2\Vivado\bin\vivado.bat -mode batch -source scrip
 
 旧版 bit 备份在 `download/ego1_arm_showcase_v1.bit`（SHA256 `868A05CD…`），可随时退回。
 
-## 尚未完成
+## 上板确认（2026-11-01 通过）
 
-**上板确认**。开发板已移除，`download/ego1_arm_showcase.bit` 还没有在实物上验证。上板后要确认：
+`download/ego1_arm_showcase.bit` 已在 EGO1 实物上核对通过。下面保留为下次改版的回归清单：
 
 1. 上电自动运行，D13 亮，D16 心跳。
 2. 01～24 逐条切换，每条页数与卡片一致。
